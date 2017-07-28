@@ -1,0 +1,22 @@
+library(rjdemetra)
+
+test_that("jd_testclass",{
+  data(xm)
+  s <- ts(xm[,1], start=c(1995,1), frequency=12)
+rx13<-x13Process(s)
+plot(rx13)
+getTs(rx13, "y_f")
+
+rts<-tramoseatsProcess(s)
+plot(rts)
+getTs(rts, "y_f")
+
+print(rts)
+
+show(rx13)
+Summary(getRegArima(rx13))
+
+show(rts)
+Summary(getRegArima(rts))
+expect_true(TRUE)
+})

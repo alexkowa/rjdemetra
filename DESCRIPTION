@@ -1,0 +1,13 @@
+Package: rjdemetra
+Type: Package
+Title: Packaed JDemetra-R
+Version: 1.1
+Date: 2017-07-28
+Author: 
+Description: xxx
+Depends: rJava
+Suggests:tempdisagg,testthat
+SystemRequirements: Oracle Java 7
+Copyright: See file COPYRIGHTS
+License: EUPL
+NeedsCompilation: no

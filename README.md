@@ -1,2 +1,2 @@
-# rjdemetrajars
-R package for Jdemetra+ jars
+# rjdemetra
+R package with Jdemetra+ jars
